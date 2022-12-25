@@ -33,7 +33,7 @@ class TaskTimeLine extends StatelessWidget {
 
   Widget _buildTimeLine(Color color) {
     return SizedBox(
-      height: 90,
+      height: 100,
       width: 20,
       child: TimelineTile(
         alignment: TimelineAlign.manual,
